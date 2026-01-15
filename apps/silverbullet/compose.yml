@@ -20,7 +20,7 @@ services:
     #   - 3000:3000
     labels:
       - com.centurylinklabs.watchtower.enable=true
-      - glance.icon=https://raw.githubusercontent.com/silverbulletmd/silverbullet/refs/heads/main/web/images/logo.png
+      - glance.icon=https://raw.githubusercontent.com/silverbulletmd/silverbullet/refs/heads/main/client/images/logo.png
       - glance.url=${GLANCE_URL}
       - glance.name=Silverbullet
       - glance.description=Silverbullet is a tool for managing and organizing your notes and ideas.
